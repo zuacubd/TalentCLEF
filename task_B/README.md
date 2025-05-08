@@ -1,5 +1,5 @@
 # TalentCLEF
-This project develops the IR system for our participation to the TalentCLEF2025- Task B:  Job Title-Based Skill Prediction.
+This project develops the information retrieval (IR) system for our participation to the TalentCLEF2025- Task B:  Job Title-Based Skill Prediction.
 
 ## Goal: 
   - Developing systems capable of retrieving relevant skills associated with a given job title.

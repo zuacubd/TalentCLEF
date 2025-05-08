@@ -1,0 +1,27 @@
+To do list: 
+- Generate run file for approaches A, B, C, A+B, A+C, B+C, A+B+C, Weighted A+B+C on the development set
+- Evaluate the approaches on the development set
+- Select the best three approaches and generate runs on the test sets
+- Submit the runs
+
+baseline:
+map: 0.1874
+mrr: 0.6752
+ndcg: 0.6660
+precision@5: 0.4500
+precision@10: 0.3852
+precision@100: 0.1964
+
+map: 0.1809
+mrr: 0.6868
+ndcg: 0.6597
+precision@5: 0.4230
+precision@10: 0.3776
+precision@100: 0.1943
+
+map: 0.1885
+mrr: 0.7020
+ndcg: 0.6667
+precision@5: 0.4428
+precision@10: 0.3937
+precision@100: 0.1989
