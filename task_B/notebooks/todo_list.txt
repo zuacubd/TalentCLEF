@@ -25,3 +25,9 @@ ndcg: 0.6667
 precision@5: 0.4428
 precision@10: 0.3937
 precision@100: 0.1989
+
+A:Run1: Each candidate skill is represented by the related terms (skill2terms). Both query and skill terms are represented using sentence transformer and are scored using cosine similarity function.
+
+AC:Run2: Each candidate skill is represented by the related terms (skill2terms) and related skill terms of related jobs (skill2job ontology). Both query and skill terms are represented using sentence transformer and are scored using cosine similarity function.
+
+WABC:Run3: Each candidate skill is represented by the related terms (skill2terms), related jobs (skill2job), and related skill terms of related jobs. Both query and skill terms are represented using sentence transformer and are scored using cosine similarity function.
