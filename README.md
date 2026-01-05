@@ -1,1 +1,1 @@
-This project details with the talent clef task B - jobtitle to skill matching.
+This project details with the TalentClef TaskB: Job-Title to relevant skills matching problem.
