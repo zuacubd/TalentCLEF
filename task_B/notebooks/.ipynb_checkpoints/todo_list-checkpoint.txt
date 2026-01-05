@@ -1,17 +1,23 @@
 - Done
 -- Part_1: downloading dataset notebook
 -- Part_2: loading and preparing dataset notebook
+-- Part_3: 
+        - Developed a dense embedding based matching model (JobTitle and Skills) for the validation dataset using Sentence-transformers,
+        - Generated the submission file for evaluation, and 
+        - Evaluated the submission file for computing the metrics (MAP, MRR, etc.)
 
 Undone:
--- Part_3: Baseline model using validation set (Data preparation, matching, and evaluation)
--- Part_4: Develop different methods for best matching of validation queries with corpus-elements, evaluate them, and surface the best one
--- Part_5: Apply the best method from Part-4 to the test dataset and evaluate the results
--- Part_6: Compare the test results with partcipants in 2025 TabletCLEF Task-B
--- Part_7: Future plans
+-- Part_4: 
+        - Implement a sparse matching model (JobTitle and Skills) for the validation dataset (TF-IDF or BM25)
+        - Generate the submission file
+        - Evaluate the submission file
+-- Part_5: Develop different methods for best matching of validation queries with corpus-elements, evaluate them, and surface the best one
+-- Part_6: Apply the best method from Part-4 to the test dataset and evaluate the results
+-- Part_7: Compare the test results with partcipants in 2025 TabletCLEF Task-B
+-- Part_8: Future plans
 
 
 To do list: 
-- Generate run file for approaches A, B, C, A+B, A+C, B+C, A+B+C, Weighted A+B+C on the development set
 - Evaluate the approaches on the development set
 - Select the best three approaches and generate runs on the test sets
 - Submit the runs
