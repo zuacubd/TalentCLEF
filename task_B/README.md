@@ -13,3 +13,9 @@ In this project, we develop an Information retrieval (IR) system for our partici
 
 ## Evaluation: 
   - The model performance is evaluated with IR metrics, being the Mean Average Precision (MAP) the official metric of the task, as well as other metrics such as Mean Reciprocal Rank (MRR) and Precision@K(1,5,10).
+
+## Ideas
+  - I1: Match the query with the documents using Dense embedding representation
+  - I2: Match the query with the documents using Sparse VoWs representation (TF-IDF, BM25)
+  - I3: Match the query with the documents using Dense and Sparse representation (Hybrid approach)
+  - I4: Selective weight the query terms and document terms, adaptively provide large weights to relevant query and document terms
