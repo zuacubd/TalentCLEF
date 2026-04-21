@@ -18,5 +18,5 @@ In this project, we develop an Information retrieval (IR) system for our partici
   - I1: Match the query with the documents using Dense embedding representation
   - I2: Match the query with the documents using Sparse VoWs representation (TF-IDF, BM25)
   - I3: Match the query with the documents using Dense and Sparse representation (Hybrid approach)
-  - I4: Selective weight the query terms and document terms, adaptively provide large weights to relevant query and document terms
-  - I5: Spare and dense features based learning to rank technique
+  - I4: JobBERT
+  - I5: Prompting
